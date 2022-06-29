@@ -15,13 +15,17 @@
     <main>
         <div class="input-container">
             <input id="taskName" type="text" placeholder="New task">
-            <button id="taskAdd" onclick="addTask()">Add</button>
-            <button id="clearAll" onclick="clearTasks()">Clear all</button>
+            <button id="taskAdd" onclick="addTask()"><span>Add</span><i class="fa-solid fa-plus"></i></button>
+            <button id="clearAll" onclick="clearTasks()"><span>Clear all</span><i class="fa-solid fa-trash"></i></button>
         </div>
         <ul id="tasks">
             <!--tasks will be added here-->
         </ul>
     </main>
+    <footer>
+        <p>&copy Jorge Tostado, 2022.</p>
+        <p>This project was made for the competency report of FSDI 103 course.</p>
+    </footer>
     <script src="app.js"></script>
 </body>
 </html>
